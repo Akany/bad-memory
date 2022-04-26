@@ -1,8 +1,11 @@
+import { AuthProvider } from './components/authProvider';
+import { Header } from './components/header';
+
 function App() {
   return (
-    <div>
-      Hello
-    </div>
+    <AuthProvider>
+      <Header/>
+    </AuthProvider>
   );
 }
 
